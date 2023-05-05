@@ -20,8 +20,8 @@ export const useConfig = () => {
   const [globalConfig, setGlobalConfig] = useLocalStorage({
     key: 'global-config',
     defaultValue: {
-      title: 'GZ',
-      slogan: 'Hack for fun not for profit',
+      title: '砺剑::实战演练平台',
+      slogan: '砺剑::宝剑锋从磨砺出',
     } as GlobalConfig,
   })
 

@@ -48,7 +48,7 @@ jobs:
         run: |
           rm -rf ./artifact/
           mkdir -p ./artifact/
-          cp -r bin/Release/* ./artifact/
+          tar -czvf ./artifact/artifact.tar.gz /home/runner/work/K8SCTF/K8SCTF/src/GZCTF/bin/Release/net7.0/
       - name: Upload artifact
         uses: actions/upload-artifact@master
         with:
